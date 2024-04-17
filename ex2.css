@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(47, 77, 160);
+}
+
+main{
+    margin-top: 100px;
+    padding: 40px;
+    justify-content: center;
+   display: flex;
+}
+
+#form{
+    color: aliceblue;
+    gap: 12px;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: linear-gradient(to bottom, rgb(18, 133, 199) 30%, rgb(0, 70, 136) 70%);
+    
+}
+
+
+
+#nome{
+    width: 330px;
+    height: 26px;
+}
+
+#trabalho{
+    width: 330px;
+    height: 26px;
+}
+
+#botao{
+    font-family: Arial;
+    color: aliceblue;
+    border: 1px solid #22789b;
+    margin-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-image: linear-gradient(to bottom, rgb(18, 133, 199) 30%, rgb(0, 70, 136) 70%);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    
+}
+
+.header{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
